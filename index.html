@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Haven — Premium, sustainable modular cabins designed for mindful, minimalist luxury living in harmony with nature.">
+  <title>Haven — Sustainable Modular Architecture</title>
+  
+  <!-- Font Preconnects -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigation Header -->
+  <header id="header">
+    <div class="container">
+      <a href="#" class="logo" id="nav-logo">
+        HAVEN<span class="logo-dot"></span>
+      </a>
+      
+      <nav class="nav-menu">
+        <ul class="nav-links">
+          <li><a href="#spaces">Spaces</a></li>
+          <li><a href="#philosophy">Philosophy</a></li>
+          <li><a href="#specifications">Specs</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      
+      <div class="nav-actions">
+        <a href="#contact" class="btn btn-secondary" style="padding: 10px 20px; font-size: 0.85rem;">Inquire</a>
+      </div>
+      
+      <!-- Mobile Navigation Hamburger -->
+      <button class="mobile-nav-toggle" aria-label="Toggle navigation" id="hamburger-btn">
+        <span class="hamburger-box">
+          <span class="hamburger-inner"></span>
+        </span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Mobile Overlay Navigation -->
+  <div class="mobile-menu-overlay" id="mobile-menu">
+    <ul class="nav-links">
+      <li><a href="#spaces" class="mobile-link">Spaces</a></li>
+      <li><a href="#philosophy" class="mobile-link">Philosophy</a></li>
+      <li><a href="#specifications" class="mobile-link">Specs</a></li>
+      <li><a href="#contact" class="mobile-link">Contact</a></li>
+      <li><a href="#contact" class="mobile-link btn btn-primary" style="margin-top: 20px; color: var(--text-light);">Inquire Now</a></li>
+    </ul>
+  </div>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      
+      <!-- Hero Details -->
+      <div class="hero-content">
+        <div class="badge">
+          <span class="badge-dot"></span>
+          Sustainable Living • Reimagined
+        </div>
+        
+        <h1 id="hero-heading">Retreat Into<br>Minimalism.</h1>
+        
+        <p class="lead" id="hero-subheading">
+          Meticulously designed, low-impact modular cabins crafted for the mindful soul. Experience pure minimalist luxury harmonized with nature's peaceful rhythm.
+        </p>
+        
+        <div class="hero-ctas">
+          <a href="#contact" class="btn btn-primary" id="cta-primary">Get Started</a>
+          <a href="#spaces" class="btn btn-secondary" id="cta-secondary">Explore Cabins</a>
+        </div>
+        
+        <!-- Social Proof Area -->
+        <div class="social-proof">
+          <div class="social-proof-avatars">
+            <!-- Simulated premium user avatars using CSS/SVG backgrounds -->
+            <div class="avatar" style="background-image: url('https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=80&q=80');"></div>
+            <div class="avatar" style="background-image: url('https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=80&q=80');"></div>
+            <div class="avatar" style="background-image: url('https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=80&q=80');"></div>
+          </div>
+          <div class="social-proof-text">
+            Loved by <span>2,000+</span> mindful residents • <span>5.0 Star</span> Rating
+          </div>
+        </div>
+      </div>
+      
+      <!-- Hero Interactive Card Showcase -->
+      <div class="hero-visual">
+        <div class="visual-card-wrapper" id="parallax-card">
+          <div class="visual-card">
+            
+            <div class="visual-card-img-container">
+              <img src="assets/images/haven_hero.png" alt="Haven Cabin Exterior Showcase" class="parallax-img active" id="hero-cabin-img-1">
+              <img src="assets/images/haven_hero_2.png" alt="Haven Cabin Deck Showcase" class="parallax-img" id="hero-cabin-img-2">
+              <img src="assets/images/haven_hero_3.png" alt="Haven Cabin Interior Showcase" class="parallax-img" id="hero-cabin-img-3">
+              <div class="visual-indicators">
+                <span class="indicator-bar active"></span>
+                <span class="indicator-bar"></span>
+                <span class="indicator-bar"></span>
+              </div>
+            </div>
+            
+            <div class="visual-card-footer">
+              <div class="visual-info">
+                <h4 id="card-footer-title">Haven Cabin 01</h4>
+                <p id="card-footer-desc">42m² • Forest Modular Platform</p>
+              </div>
+              <span class="visual-badge">INQUIRE</span>
+            </div>
+            
+          </div>
+          
+          <!-- Floating UI Overlay Card -->
+          <div class="floating-overlay">
+            <div class="floating-icon flex-center">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/>
+              </svg>
+            </div>
+            <div class="floating-text">
+              <h5>Smart Climate</h5>
+              <p style="color: var(--color-accent);">98% Efficiency</p>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+      
+    </div>
+  </section>
+
+  <!-- Micro Features Section -->
+  <section class="features section-padding" id="philosophy">
+    <div class="container">
+      <div class="features-grid">
+        
+        <div class="feature-item" id="feature-1">
+          <span class="feature-num">01</span>
+          <h3>Natural Integration</h3>
+          <p>
+            Engineered to blend seamlessly into any environment, utilizing natural thermal currents, optimal sun angles, and expansive floor-to-ceiling glass paneling.
+          </p>
+        </div>
+        
+        <div class="feature-item" id="feature-2">
+          <span class="feature-num">02</span>
+          <h3>Sustainable Materiality</h3>
+          <p>
+            Crafted exclusively from certified FSC timber, organic local clay paints, and high-performance carbon-negative insulation to leave zero ecological footprints.
+          </p>
+        </div>
+        
+        <div class="feature-item" id="feature-3">
+          <span class="feature-num">03</span>
+          <h3>Off-Grid Solitude</h3>
+          <p>
+            Equipped with state-of-the-art rain filtration systems, high-efficiency premium integrated solar panels, and professional high-performance acoustic isolation.
+          </p>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer id="contact">
+    <div class="container">
+      <div class="footer-content">
+        
+        <!-- Left Branding column -->
+        <div class="footer-brand">
+          <h2>HAVEN</h2>
+          <p>Architecting minimalist, high-end modular spaces crafted for sustainable living and mental tranquility.</p>
+          <div class="social-icons">
+            <a href="#">Instagram</a>
+            <a href="#">Pinterest</a>
+            <a href="#">Journal</a>
+          </div>
+        </div>
+        
+        <!-- Right Action column -->
+        <div class="footer-links">
+          <div class="footer-links-col">
+            <h4>EXPLORE</h4>
+            <ul>
+              <li><a href="#spaces">Modular Cabins</a></li>
+              <li><a href="#philosophy">Our Materials</a></li>
+              <li><a href="#specifications">Engineering Specs</a></li>
+            </ul>
+          </div>
+          
+          <div class="footer-newsletter">
+            <h4>SUBSCRIBE TO THE JOURNAL</h4>
+            <p>Receive architecture updates, minimalist journals, and new model releases.</p>
+            <form class="newsletter-form" id="newsletter-form" onsubmit="event.preventDefault();">
+              <input type="email" placeholder="Your Email Address" required id="newsletter-input">
+              <button type="submit" class="newsletter-btn" id="newsletter-submit">Join</button>
+            </form>
+          </div>
+        </div>
+        
+      </div>
+      
+      <!-- Footer Bottom Copyright info -->
+      <div class="footer-bottom">
+        <p>&copy; 2026 HAVEN Modular Inc. All rights reserved. Created with absolute attention to premium design detail.</p>
+        <div class="social-icons">
+          <a href="#" style="font-size: 0.75rem; text-transform: none; opacity: 0.7;">Privacy Policy</a>
+          <a href="#" style="font-size: 0.75rem; text-transform: none; opacity: 0.7;">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Script File -->
+  <script src="script.js"></script>
+</body>
+</html>
